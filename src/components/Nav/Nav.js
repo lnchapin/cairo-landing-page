@@ -75,11 +75,21 @@ class Nav extends Component {
             About
           </div>
           <div
-            className="menu__item"
-            onClick={(e) => this.scrollToPage('.portfolio-page')}
+            className="menu__item active"
           >
-            Portfolio
+            <a href="http://158.140.136.216:8088/">
+              Live Cam
+            </a>
           </div>
+            {
+              // TODO: instagram feed
+              // <div
+              //   className="menu__item"
+              //   onClick={(e) => this.scrollToPage('.portfolio-page')}
+              // >
+              //   Instagram
+              // </div>
+            }
         </div>
       </nav>
     );

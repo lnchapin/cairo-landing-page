@@ -47,7 +47,7 @@ nav {
       }
     }
   }
-  
+
   .menu {
     margin-right: 1rem;
     display: flex;
@@ -65,5 +65,9 @@ nav {
         cursor: pointer;
       }
     }
+  }
+
+  a {
+    color: inherit;
   }
 }

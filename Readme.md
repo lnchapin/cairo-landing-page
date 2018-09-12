@@ -1,9 +1,13 @@
-# Dinesh Pandiyan
+# Seth
 
-This repo holds my **Dev Landing Page**, a one stop shop to everything I do online. 🎉
+This repo holds the fan page of a well-loved Eclectus Parrot named Cairo. 🎉
 
-`master` branch has the deploy files. The source code is in `dev` branch [here](https://github.com/flexdinesh/flexdinesh.github.io/tree/dev).
+By having a website, he joins the glitterati of internet-famous pets and livestreams for my private viewing.
 
-## License
+I hope to feature an instagram feed sometime in the future.
 
-MIT © Dinesh Pandiyan
+Look out for @cairothedino
+
+`master` branch has the deploy files. The source code is in `dev` branch [here](https://github.com/lackdaz/cairo-landing-page/tree/dev).
+
+Credit to [Dinesh Pandiyan](https://github.com/flexdinesh/flexdinesh.github.io) for the wonderful boilerplate
