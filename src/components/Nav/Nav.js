@@ -77,7 +77,7 @@ class Nav extends Component {
           <div
             className="menu__item active"
           >
-            <a href="http://158.140.136.216:8088/">
+            <a href="http://cam.cairothedino.com/">
               Live Cam
             </a>
           </div>
