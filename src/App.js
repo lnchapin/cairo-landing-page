@@ -7,8 +7,14 @@ import ScrollTop from '@components/ScrollTop';
 import ThemeSwitcher from '@components/ThemeSwitcher';
 import Browser from '@components/Browser';
 import Footer from '@components/Footer';
+import ReactGA from 'react-ga';
 
 class App extends Component {
+
+initializeReactGA() {
+    ReactGA.initialize('UA-125705862-1');
+    ReactGA.pageview('/');
+}
 
   render() {
     return (
