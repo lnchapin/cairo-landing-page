@@ -42,7 +42,10 @@ const AboutPage = (props, context) => {
           </div>
         </div>
       </div>
-      <ScrollToNext pageSelector=".portfolio-page" />
+        {
+          // TODO: add this selector
+          // <ScrollToNext pageSelector=".portfolio-page" />
+        }
     </div>
   );
 };
