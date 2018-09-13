@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ScrollToNext from '@components/ScrollToNext';
 import './style.scss';
+import logo from '@images/cairo.png'
 
 const AboutPage = (props, context) => {
   const {
@@ -36,10 +37,10 @@ const AboutPage = (props, context) => {
             <p>
               I hope to embed my instagram feed below but my humans are slow, especially <span className="highlight"> developers</span>. So I'm crossing my talons that it would happen soon.
             </p>
-            <p className="text-emoji" style={{ color: colorPrimary }}>
-              \ (•◡•) /
-            </p>
           </div>
+        </div>
+        <div className="logo">
+          <img src={logo} alt="peekaboo"/>
         </div>
       </div>
         {
