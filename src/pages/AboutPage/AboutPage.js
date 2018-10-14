@@ -3,11 +3,16 @@ import PropTypes from 'prop-types';
 import ScrollToNext from '@components/ScrollToNext';
 import './style.scss';
 import logo from '@images/cairo-coconut.png'
+import moment from 'moment';
 
 const AboutPage = (props, context) => {
   const {
     theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary }
   } = context;
+  const mbirthday = moment('2017-05-09');
+  const mnow = moment(moment.now());
+  const years = mnow.diff(mbirthday, 'years')
+  const months = mnow.diff(mbirthday, 'months') % 12
 
   return (
     <div className="about-page" style={{ backgroundColor: bgPrimary }}>
@@ -26,7 +31,7 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I am an <span className="highlight"> Eclectus parrot</span> living in Singapore and I recently adopted a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>.
+              I am a {years} year and {months} months <span className="highlight"> Eclectus parrot</span> living in Singapore and I recently adopted a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>.
             </p>
             <p>
               I used to only say <span className="highlight"> hello</span> but that hasn't gotten me a lot of treats or chicks recently, so I have started to expand my repetoire to - <span className="highlight"> uh-oh, oooh, nyuk-nyuk</span> and some creole swear words that my male human is convinced would get me famous on the internet.
