@@ -100,6 +100,7 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "moment": "^2.22.2",
     "react-ga": "^2.5.3"
   }
 }

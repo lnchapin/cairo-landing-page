@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ScrollToNext from '@components/ScrollToNext';
 import './style.scss';
-import logo from '@images/cairo.png'
+import logo from '@images/cairo-coconut.png'
 
 const AboutPage = (props, context) => {
   const {
@@ -26,16 +26,16 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I am an <span className="highlight"> Eclectus parrot</span> living in Singapore and I own a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>.
+              I am an <span className="highlight"> Eclectus parrot</span> living in Singapore and I recently adopted a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>.
             </p>
             <p>
-              I used to only say <span className="highlight"> hello</span> but that hasn't gotten me a lot of treats or chicks recently, so I have started to expand my repetoire to - <span className="highlight"> uh-oh, oooh, nyuk-nyuk</span> and some creole swear words that my male human is convinced would get me famous on reddit.
+              I used to only say <span className="highlight"> hello</span> but that hasn't gotten me a lot of treats or chicks recently, so I have started to expand my repetoire to - <span className="highlight"> uh-oh, oooh, nyuk-nyuk</span> and some creole swear words that my male human is convinced would get me famous on the internet.
             </p>
             <p>
-              Like all internet celebrities, I stream 24/7 from the comfort of my cage for my only two premium subscribers but I can't tell you the password because its embarrassing.
+              Like all internet celebrities, I stream 24/7 from the comfort of my cage for my premium subscribers.
             </p>
             <p>
-              I hope to embed my instagram feed below but my humans are slow, especially <span className="highlight"> developers</span>. So I'm crossing my talons that it would happen soon.
+              I hope to embed my instagram feed below but my humans are slow, especially <a href="https://github.com/lackdaz"><span className="highlight"> the developer</span></a>. So I'm crossing my talons that it would happen soon.
             </p>
           </div>
         </div>
