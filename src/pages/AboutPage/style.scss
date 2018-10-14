@@ -35,15 +35,19 @@
         font-weight: 300;
         padding: 0.5rem 0;
       }
+
+      a {
+        color: inherit;
+      }
     }
   }
 
   .logo {
-    padding: 10vh 0;
+    padding: 5vh 0;
     display: flex;
     align-items: baseline;
     justify-content: center;
-    
+
     img {
       width: 100%;
       height: auto;

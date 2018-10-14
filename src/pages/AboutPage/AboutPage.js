@@ -31,16 +31,13 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I am a {years} year and {months} months <span className="highlight"> Eclectus parrot</span> living in Singapore and I recently adopted a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>.
+              Hello! I'm <span className="highlight">Cairo</span> (pronounced <i>chai-row</i>, or 菜肉), a {years} year and {months} months <span className="highlight"> <a href="https://eclectusparrotbreeders.com/about-eclectus.html">Eclectus parrot</a></span> living in Singapore and I recently adopted a pair of human beings - which I nickname <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>. A truly hatched and bred Singaporean, I currently live in <span className="highlight"> Joo Chiat</span> and enjoy chilling out in the East with my <i>parronts</i> (portmanteau of parrot and parent).
             </p>
             <p>
-              I used to only say <span className="highlight"> hello</span> but that hasn't gotten me a lot of treats or chicks recently, so I have started to expand my repetoire to - <span className="highlight"> uh-oh, oooh, nyuk-nyuk</span> and some creole swear words that my male human is convinced would get me famous on the internet.
+              I'm a parrot so I <span className="highlight"> fly and talk a lot</span>. Mostly not-so-chim words like <span className="highlight"> 'hello', 'uh-oh', 'oooh'</span> and some choice swear words that my male human convinced me would get me famous on the internet. But haiyo, what is fame when I haven't reached sexual maturity? I really don't wanna end up like Justin Bieber. Anyways, I sometimes stream from the comfort of my cage for fun. My human has repeatedly warned me not to try and eat the Raspberry Pi - but why else would they name something after two of my favourite foods.
             </p>
             <p>
-              Like all internet celebrities, I stream 24/7 from the comfort of my cage for my premium subscribers.
-            </p>
-            <p>
-              I hope to embed my instagram feed below but my humans are slow, especially <a href="https://github.com/lackdaz"><span className="highlight"> the developer</span></a>. So I'm crossing my talons that it would happen soon.
+              I hope to start an instagram soon but my humans are so busy all the time, especially <a href="https://github.com/lackdaz"><span className="highlight"> the developer</span></a>. So I'm crossing my talons that it would happen soon.
             </p>
           </div>
         </div>
