@@ -9,7 +9,7 @@ const AboutPage = (props, context) => {
   const {
     theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary }
   } = context;
-  const mbirthday = moment('2017-05-09');
+  const mbirthday = moment('2017-11-20');
   const mnow = moment(moment.now());
   const years = mnow.diff(mbirthday, 'years')
   const months = mnow.diff(mbirthday, 'months') % 12
