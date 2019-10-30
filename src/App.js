@@ -8,6 +8,8 @@ import ThemeSwitcher from '@components/ThemeSwitcher';
 import Browser from '@components/Browser';
 import Footer from '@components/Footer';
 import ReactGA from 'react-ga';
+ReactGA.initialize('UA-125705862-1');
+ReactGA.pageview('/');
 
 class App extends Component {
 
