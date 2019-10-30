@@ -1,4 +1,4 @@
-# Seth
+# Cairo
 
 This repo holds the fan page of a well-loved Eclectus Parrot named Cairo. 🎉
 
@@ -8,6 +8,8 @@ I hope to feature an instagram feed sometime in the future.
 
 Look out for @cairothedino
 
-`master` branch has the deploy files. The source code is in `dev` branch [here](https://github.com/lackdaz/cairo-landing-page/tree/dev).
+The deployable fies can be found in `master` branch.
 
-Credit to [Dinesh Pandiyan](https://github.com/flexdinesh/flexdinesh.github.io) for the wonderful boilerplate
+Interested in the source code? Find it in the `dev` branch [here](https://github.com/lackdaz/cairo-landing-page/tree/dev).
+
+Credit to [Dinesh Pandiyan](https://github.com/flexdinesh/flexdinesh.github.io) for the wonderful boilerplate for the website.
