@@ -31,13 +31,13 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              Hello! I'm <span className="highlight">Cairo</span> (pronounced <i>chai-row</i>, or 菜肉), a {years} year and {months} months <span className="highlight"> <a href="https://eclectusparrotbreeders.com/about-eclectus.html">eclectus parrot</a></span> living in Singapore, and I recently adopted a pair of human beings - whom I have nicknamed <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>. A truly hatched and bred Singaporean, I currently live in <span className="highlight"> Joo Chiat</span> and enjoy chilling out in the East with my <i>parronts</i> (portmanteau of parrot and parent).
+              Hello! I'm <span className="highlight">Cairo</span> (pronounced <i>chai-row</i>, or 菜肉), a {years} year and {months} months <span className="highlight"> <a href="https://eclectusparrotbreeders.com/about-eclectus.html" target="_blank" rel="noopener noreferrer">eclectus parrot</a></span> living in Singapore, and I recently adopted a pair of human beings - whom I have nicknamed <span className="highlight"> Seth</span> & <span className="highlight"> Cleavan</span>. A truly hatched and bred Singaporean, I currently live in <span className="highlight"> Joo Chiat</span> and enjoy chilling out in the East with my <i>parronts</i> (portmanteau of parrot and parent).
             </p>
             <p>
               I'm a parrot so I <span className="highlight"> fly and talk a lot</span>. Mostly not-so-chim words, like <span className="highlight"> 'hello', 'uh-oh', 'oooh'</span>, and some important phrases, like <span className="highlight">'I love you'</span> - that always gets me treats ;) I also love blowing kisses! My human has repeatedly warned me not to try and eat the Raspberry Pi - but why else would they name something after two of my favourite foods?
             </p>
             <p>
-              I hope to put up my <span className="highlight"><a href="https://www.instagram.com/cairothedino/">instagram</a></span> feed soon, but my humans are so busy all the time, especially <a href="https://github.com/lackdaz"><span className="highlight"> the developer</span></a>. So I'm crossing my talons that it will happen soon.
+              I hope to put up my <span className="highlight"><a href="https://www.instagram.com/cairothedino/" target="_blank" rel="noopener noreferrer">instagram</a></span> feed soon, but my humans are so busy all the time, especially <a href="https://github.com/lackdaz" target="_blank" rel="noopener noreferrer"><span className="highlight"> the developer</span></a>. So I'm crossing my talons that it will happen soon.
             </p>
           </div>
         </div>
